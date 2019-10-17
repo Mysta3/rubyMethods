@@ -20,7 +20,7 @@ end
 
 def determine_current_hour
   current_time = Time.new
-  current_time.hour
+  return current_time.hour
 end
  
 def greeting
